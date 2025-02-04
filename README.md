@@ -24,7 +24,7 @@ To install missing dependencies, run:
 ```bash
 pip install -r requirements.txt
 
-##📥 **Installation**
+## 📥 Installation
 
 1: Clone the repository-
   git clone https://github.com/fpranshu/websecurityscanner.git
