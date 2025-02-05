@@ -46,3 +46,11 @@ To run a scan on your web application, use the following command:
 
 ```bash
 python scan.py --url <URL>
+
+### Using the GUI
+
+Enter the target URL in the input box.
+Click the "Analyze Links" button.
+View the results:
+HTTP status codes for each link.
+Detection of unsafe and obsolete attributes.
