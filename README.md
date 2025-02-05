@@ -1,14 +1,13 @@
 # WebSecurityScanner
 
-**WebSecurityScanner** is a Python-based tool designed to analyze web security by scanning links, checking for insecure attributes, and verifying HTTP response codes. It helps users identify potential security risks in web pages.
+WebSecurityScanner is a Python-based tool designed to help you identify and mitigate security vulnerabilities in your web applications. It performs a thorough scan of your web application, checking for common security issues and providing detailed reports to help you secure your application.
 
-## 🚀 Features
+## Features
 
-- **Extracts all links** (`<a>` tags) from a given URL.
-- **Checks HTTP response codes** (e.g., `200 OK`, `404 Not Found`).
-- **Identifies obsolete and unsafe attributes** in links.
-- **User-friendly GUI** built with Tkinter.
-- **Easy to use** with a simple URL input.
+- **Automated Scanning:** Automatically scans your web application for common security vulnerabilities.
+- **Detailed Reports:** Generates detailed reports with information about identified vulnerabilities and suggested fixes.
+- **Customizable:** Easily configurable to suit your specific security needs.
+- **Easy to Use:** Simple command-line interface for quick and easy scans.
 
 ## 🛠 Prerequisites
 
@@ -20,8 +19,30 @@ Before running the tool, ensure you have the following installed:
   - `beautifulsoup4`
   - `tkinter` (comes with Python)
 
-To install missing dependencies, run:
+## Installation
+
+To install WebSecurityScanner, follow these steps:
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/fpranshu/websecurityscanner.git
+    cd websecurityscanner
+    ```
+
+2. Create a virtual environment and activate it:
+    ```bash
+    python3 -m venv venv
+    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+    ```
+
+3. Install the required dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+## Usage
+
+To run a scan on your web application, use the following command:
+
 ```bash
-pip install -r requirements.txt
-
-
+python scan.py --url <URL>
