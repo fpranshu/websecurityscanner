@@ -103,4 +103,4 @@ This project is licensed under the MIT License. See the LICENSE file for more de
 
 ## Contact
 
-For any issues or suggestions, please reach out via GitHub Issues or email me at [your-email@example.com].
+For any issues or suggestions, please reach out via GitHub Issues or email me at pranshumongia@gmail.com .
