@@ -95,12 +95,6 @@ python scan.py --url <URL>
 
 ---
 
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for more details.
-
----
-
 ## Contact
 
 For any issues or suggestions, please reach out via GitHub Issues or email me at pranshumongia@gmail.com .
